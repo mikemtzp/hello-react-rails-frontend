@@ -1,46 +1,65 @@
-# Getting Started with Create React App and Redux
+# Hello Rails-React (Front-end)
+> This app displays a random greeting and works as the visual part for a separate hello-react-rails back-end project. Built with React.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), using the [Redux](https://redux.js.org/) and [Redux Toolkit](https://redux-toolkit.js.org/) template.
+## 🛠️ Built With
 
-## Available Scripts
+- React.js
+- Redux
 
-In the project directory, you can run:
+## [Hello Rails-React (Back-end)](https://github.com/mikemtzp/hello-react-rails-backend)
 
-### `npm start`
+## 🧮 Prerequisites
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Install
+```
+npm i react-router-dom
+npm i @reduxjs/toolkit
+npm i react-redux
+```
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Setup
 
-### `npm test`
+Follow these steps on your console to properly clone this repository on your desktop:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+```
+$ cd desktop
+$ git clone 'repo_path'
+$ cd 'repo_name'
+$ code .
+Run 'ruby file_name' to see outputs in the console.
+Run 'rubocop' to check linter offenses.
+```
 
-### `npm run build`
+You can create a new react-redux proyect with the following command:
+```
+npx create-react-app my-app --template redux
+```
+You can setup the react-redux in an existing proyect with the following command:
+```
+npx create-react-app . --template redux
+```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 👤 Author
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Mike Martínez
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- GitHub: [@mikemtzp](https://github.com/mikemtzp)
+- Twitter: [@mikemtzp](https://twitter.com/mikemtzp)
+- LinkedIn: [Mike Martínez](https://www.linkedin.com/in/mike-mart%C3%ADnez/)
 
-### `npm run eject`
+## 🤝 Contributing
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Contributions, issues, and feature requests are welcome!
+Feel free to check the [issues page](https://github.com/mikemtzp/hello-react-rails-frontend/issues).
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## ⭐️ Show your support
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Give a ⭐️ if you like this project!
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## 🥇 Acknowledgments
 
-## Learn More
+- This README.md was elaborated with the [Microverse readme-template](https://github.com/microverseinc/readme-template)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## 📝 License
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+[MIT License](https://github.com/mikemtzp/hello-react-rails-frontend/blob/dev/LICENSE)
