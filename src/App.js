@@ -5,9 +5,9 @@ import Greeting from './features/greeting/Greeting';
 function App() {
   return (
     <Router>
-    <Routes>
-      <Route path="/" element={<Greeting />} />
-    </Routes>
+      <Routes>
+        <Route path="/" element={<Greeting />} />
+      </Routes>
     </Router>
   );
 }

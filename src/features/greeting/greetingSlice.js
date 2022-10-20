@@ -1,7 +1,7 @@
 import getData from './greetingAPI';
 
 // Actions
-const SHOW_GREETINGS = 'redux/greetingsReducer.js/SHOW_GREETINGS'
+const SHOW_GREETINGS = 'redux/greetingsReducer.js/SHOW_GREETINGS';
 
 // Reducer
 const initialState = [];
