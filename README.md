@@ -8,7 +8,7 @@
 
 ## [Hello Rails-React (Back-end)](https://github.com/mikemtzp/hello-react-rails-backend)
 
-- To ensure the app works correctly in your computer first run `rails s` in the Hello Rails-React (Back-end) project so it runs in host `localhost:3000`. Then. run `npm start` in the Hello Rails-React (Front-end) project so it runs in host `localhost:3001` so the fech of the API works properly.
+- To ensure the app works correctly in your computer first run `rails s` in the Hello Rails-React (Back-end) project so it runs in host `localhost:3000`. Then. run `npm start` in the Hello Rails-React (Front-end) project so it runs in host `localhost:3001` so the fetch of the API works properly.
 
 ## 🧮 Prerequisites
 
