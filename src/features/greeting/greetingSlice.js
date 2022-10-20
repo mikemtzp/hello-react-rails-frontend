@@ -6,7 +6,7 @@ const SHOW_GREETINGS = 'redux/greetingsReducer.js/SHOW_GREETINGS'
 // Reducer
 const initialState = [];
 
-export const greetingsReducer = (state = initialState, action) => {
+export const greetingReducer = (state = initialState, action) => {
   switch (action.type) {
     case SHOW_GREETINGS:
       return action.payload;
